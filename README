@@ -1,0 +1,9 @@
+Usage: script.sh username
+
+Will create a "username/" directory in the CWD and then proceed to clone all of username's public git repos into that directory. Scripts will fail if the "username/" directory already exists.
+
+Dependencies:
+    jq >= 1.5
+    sed (GNU) >= 4.0
+    curl >= 7.0.0
+    xargs (GNU) >= 4.0.0
